@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elena Nguyen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- You need to put the bootstrap link before the css link -->
+    <link rel="icon" href="images/favicon.png">
+    <!-- Favicon is the icon which is displayed on the tab bar, next to the title to the left -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Pacifico&family=Slackside+One&display=swap" rel="stylesheet">
+    <!-- Google Font: need to pick up the suitable fonts before copy the link and paste here hehe/use Fontjoy -->
+</head>
+<body>
+    <div id="home">
+        <img class="clouds" src="images/background-image.png" alt="">
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-md container-fluid">
+        <!-- Step 1: Nav element with designated classes
+            The "navbar-expand-md" class means that navbar automatically collapses at the "md"/medium point 
+        -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">
+                    <img class="avatar me-auto avatar-1" src="images/avatar-1.png" alt="Bootstrap" width="30" height="24">
+                </a>
+                <!-- Navbar brand: can contain image + text/brand-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <!-- The toggler button/hamburger icon -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active brown-text" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about-me" class="nav-link active brown-text">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link active brown-text">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- The part where we put all the navitem lol/div and an ul -->
+            </div>
+        </nav>
+        <!-- Navigation bar -->
+        <!-- This is the bootstrap designed navigation bar which i just have to copy, paste and readjust some points -->
+        <div class="intro">
+            <h1 class="brown-text">I'm Elena</h1>
+            <h6 class="brown-text">a web designer</h6>
+        </div>
+        <img class="mountain-img" src="images/mountain.png" alt="">
+    </div>
+    <div id="about-me">
+        <h3>About me</h3>
+        <p class="intro-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac. Tellus molestie nunc non blandit massa. A arcu cursus vitae congue.</p>
+        <hr>
+        <div class="fact">
+            <img class="avatar intro-avts avatar-2" src="images/avatar-2.png" alt="">
+            <div class="intro-2">
+                <h5>A web developer/designer</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac. Tellus molestie nunc non blandit massa. A arcu cursus vitae congue.</p>
+            </div>    
+        </div>
+        <div class="fact">
+            <img class="avatar intro-avts avatar-3" src="images/avatar-3.png" alt="">
+            <div class="intro-3">
+                <h5>I am often misunderstood</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac. Tellus molestie nunc non blandit massa. A arcu cursus vitae congue.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="contact">
+        <h3>Get In Touch</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac. Tellus molestie nunc non blandit massa. A arcu cursus vitae congue.</p>
+        <button class="btn" ><a class="email-link" href="mailto: elennapln@gmail.com">Contact Me</a></button>
+        <!-- To create a mailto button/look at the href -->
+    </div>
+    <div id="footer">
+        <a class="social-media-link" href="">Facebook</a>
+        <a class="social-media-link" href="">Instagram</a>
+        <a class="social-media-link" href="">Threads</a>
+        <p class="copyright">© 2023 Elena Nguyen</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- this script is a part of the bootstrap but we must link it at the end of the code right here -->
+</body>
+</html>
